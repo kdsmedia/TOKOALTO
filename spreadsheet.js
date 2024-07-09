@@ -17,7 +17,7 @@ function spreadsheet(keyFile, spreadsheetId) {
     version: "v4",
     auth: client,
   });
-  //'1vuKyr1A8Vjnz3O48AE9gHNrTSCZ2oaaMNOc2EWjsp5Q';
+  //'1-sgX4VWmR5b17gaaWH8mWJOUpbYT1EzGxEbAE7cj4Go';
 
   this.getRows = async function (range) {
     const data = await googlesheets.spreadsheets.values.get({
@@ -53,7 +53,7 @@ const ss = useSpreadsheet ? new spreadsheet(keyFileName, sheetId) : null;
 // async function start() {
 //  const b = await ss.getRows("Sheet1!a2:c4");
 //  console.log(b);
-//  const c = await ss.getDataByNama("Sheet1!a2:c4", "Zakaria");
+//  const c = await ss.getDataByNama("Sheet1!a2:c4", "Sidhanie");
 //  console.log(c);
 //  const data = ["1",
 //   "Ganjaran",
